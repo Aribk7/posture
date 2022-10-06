@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>posture.so</title>
+        <title>Posture.so</title>
         <meta property="og:image" content="https://posture.so/posture.png" />
         <meta property="og:title" content="posture.so" />
         <meta

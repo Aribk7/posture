@@ -129,7 +129,7 @@ export default function Home() {
               py={2}
               px={{ base: 6, md: 16 }}
               rounded="full"
-              _hover={{ bg: "gray.900" }}
+              _hover={{ bg: "gray.9000" }}
               onClick={() => {
                 startPose();
               }}
