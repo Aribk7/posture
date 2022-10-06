@@ -38,7 +38,7 @@ export default function Home() {
       </Center>
       <Text px={5} textAlign="center">
         made for{" "}
-        <Link href="https://www.youtube.com/watch?v=fcZXfoB2f70" >@You</Link>
+        <Link href="https://www.youtube.com/watch?v=fcZXfoB2f70">@Farrah</Link>
       </Text>
     </>
   );
