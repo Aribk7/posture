@@ -67,10 +67,10 @@ export default function Home() {
 
   const setMessage = (isSlouching) => {
     if (isSlouching === true) {
-      setPostureMessage("🚨 Bruh get up FARRAH 🚨");
+      setPostureMessage("🚨 Bruh get up 🚨");
     }
     if (isSlouching === false) {
-      setPostureMessage("✅ Good Job Farrah Jaan ✅");
+      setPostureMessage("✅ Good Job  ✅");
     }
   };
 
