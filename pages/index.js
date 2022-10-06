@@ -23,7 +23,7 @@ export default function Home() {
             py={2}
             px={14}
             rounded="full"
-            _hover={{ bg: "gray.01" }}
+            _hover={{ bg: "gray.100" }}
             cursor="pointer"
             bg="white"
             onClick={() => {
