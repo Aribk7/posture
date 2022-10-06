@@ -36,9 +36,9 @@ export default function Home() {
           </Box>
         </VStack>
       </Center>
-      <Text px={2} textAlign="center">
-        made with bad posture by{" "}
-        <Link href="https://www.youtube.com/watch?v=fcZXfoB2f70">@aleemrehmetula</Link>
+      <Text px={5} textAlign="center">
+        made for{" "}
+        <Link href="https://www.youtube.com/watch?v=fcZXfoB2f70" >@You</Link>
       </Text>
     </>
   );
