@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.background {
+  color: lightblue;
+}
+
+
 .footer {
   display: flex;
   flex: 1;
