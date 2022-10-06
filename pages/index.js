@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head >
-        <title>Posture Up</title>
+        <title color="facebook.700">Posture Up</title>
         <meta property="og:image" content="https://posture.so/posture.png" />
         <meta property="og:title" content="posture.so" />
         <meta
