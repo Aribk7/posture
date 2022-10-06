@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <Center px={8} h="90vh">
         <VStack spacing={2}>
-          <Heading color="facebook.700" fontSize="6xl">Posture Up</Heading>
+          <Heading color="facebook.700" fontSize="8xl">Posture Up</Heading>
           <Text w={{ base: 80, md: 96 }} pb={4} textAlign="center" color="facebook.500">
             A web-app giving you not-so-friendly reminders about your posture.
           </Text>
@@ -23,14 +23,14 @@ export default function Home() {
             py={2}
             px={14}
             rounded="full"
-            _hover={{ bg: "facebook.900" }}
+            _hover={{ bg: "facebook.400" }}
             cursor="pointer"
-            bg="facebook.500"
+            bg="facebook.200"
             onClick={() => {
               location.href = "/try";
             }}
           >
-            <Text textColor="black" fontSize="3xl">
+            <Text textColor="white" fontSize="3xl">
               try now
             </Text>
           </Box>
@@ -38,7 +38,7 @@ export default function Home() {
       </Center>
       <Text px={2} textAlign="center">
         made with bad posture by{" "}
-        <Link href="https://twitter.com/aleemrehmetula">@aleemrehmetula</Link>
+        <Link href="https://www.youtube.com/watch?v=fcZXfoB2f70">@aleemrehmetula</Link>
       </Text>
     </>
   );
