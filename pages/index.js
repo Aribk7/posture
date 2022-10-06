@@ -38,7 +38,7 @@ export default function Home() {
       </Center>
       <Text px={2} textAlign="center">
         made with bad posture by{" "}
-        <Link href="https://twitter.com/arib">@arib</Link>
+        <Link href="https://twitter.com/aleemrehmetula">@aleemrehmetula</Link>
       </Text>
     </>
   );
