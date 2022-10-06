@@ -4,7 +4,7 @@ import { Box, Text, Link, Center, Heading, VStack } from "@chakra-ui/react";
 export default function Home() {
   return (
     <>
-      <Head>
+      <Head >
         <title>Posture Up</title>
         <meta property="og:image" content="https://posture.so/posture.png" />
         <meta property="og:title" content="posture.so" />
@@ -16,7 +16,7 @@ export default function Home() {
       <Center px={8} h="90vh">
         <VStack spacing={2}>
           <Heading fontSize="6xl">posture Up</Heading>
-          <Text w={{ base: 80, md: 96 }} pb={4} textAlign="center">
+          <Text w={{ base: 80, md: 96 }} pb={4} textAlign="center" color="facebook.500">
             A web-app giving you not-so-friendly reminders about your posture.
           </Text>
           <Box
