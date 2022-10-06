@@ -25,12 +25,12 @@ export default function Home() {
             rounded="full"
             _hover={{ bg: "gray.900" }}
             cursor="pointer"
-            bg="black"
+            bg="white"
             onClick={() => {
               location.href = "/try";
             }}
           >
-            <Text textColor="white" fontSize="3xl">
+            <Text textColor="black" fontSize="3xl">
               try now
             </Text>
           </Box>
