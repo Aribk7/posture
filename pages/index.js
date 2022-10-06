@@ -25,7 +25,7 @@ export default function Home() {
             rounded="full"
             _hover={{ bg: "gray.100" }}
             cursor="pointer"
-            bg="white"
+            bg="lightpink"
             onClick={() => {
               location.href = "/try";
             }}
