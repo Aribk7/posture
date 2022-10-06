@@ -67,10 +67,10 @@ export default function Home() {
 
   const setMessage = (isSlouching) => {
     if (isSlouching === true) {
-      setPostureMessage("🚨 Bruh get up 🚨");
+      setPostureMessage("🚨 Bruh fix your posture Get up 🚨");
     }
     if (isSlouching === false) {
-      setPostureMessage("✅ Good Job  ✅");
+      setPostureMessage("✅ Good Job you look cute ✅");
     }
   };
 
@@ -96,7 +96,7 @@ export default function Home() {
           rounded="lg"
           h={{ base: "20rem", md: "30rem" }}
           w={{ base: "19rem", md: "37rem" }}
-          bg="gray.300"
+          bg="blue.300"
         >
           <VStack spacing={2}>
             <Spinner size="xl" />
@@ -109,12 +109,13 @@ export default function Home() {
               py={2}
               px={{ base: 6, md: 16 }}
               rounded="full"
-              _hover={{ bg: "gray.900" }}
+              
+              _hover={{ bg: "facebook.300" }}
               onClick={() => {
                 startPose();
               }}
               cursor="pointer"
-              bg="black"
+              bg="facebook.500"
             >
               <Text
                 textAlign="center"
