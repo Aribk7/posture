@@ -16,7 +16,7 @@ export default function Home() {
       <Center px={8} h="90vh">
         <VStack spacing={2}>
           <Heading fontSize="6xl">posture Up</Heading>
-          <Text w={{ base: 80, md: 100 }} pb={4} textAlign="center">
+          <Text w={{ base: 80, md: 96 }} pb={4} textAlign="center">
             A web-app giving you not-so-friendly reminders about your posture.
           </Text>
           <Box
