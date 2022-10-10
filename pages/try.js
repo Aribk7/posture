@@ -83,9 +83,15 @@ export default function Home() {
     }
   }, [cameraGood]);
   return (
-    <Center h="90vh" pt={{ base: 12, md: 0 }} mx={{ base: 8, md: 0 }}>
+  
+    <Center h="100vh" pt={{ base: 12, md: 0 }} mx={{ base: 8, md: 0 }}>
       <Box>
-        <Box rounded="lg" display={cameraGood ? "block" : "none"}>
+      <VStack spacing={2}>
+          <Text w={{ base: 80, md: 96 }} pb={2} fontSize="3xl" textAlign="center" color="facebook.500">
+            <b></b>
+          </Text>
+          </VStack>
+        <Box  rounded="lg" display={cameraGood ? "block" : "none"}>
           <Box rounded="lg" as="video" playsInline autoPlay></Box>
           <Box display="none">
             <canvas id="hiddenCanvas"></canvas>
@@ -100,7 +106,7 @@ export default function Home() {
         >
           <VStack spacing={2}>
             <Spinner size="xl" />
-            <Text>Enable Camera Permissions...</Text>
+            <Text>Stealing your data... JK</Text>
           </VStack>
         </Center>
         <Box pt={4} rounded="md">
