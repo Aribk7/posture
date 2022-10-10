@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { Box, Text, Center, VStack, Spinner } from "@chakra-ui/react";
+import { Box, Text, Center, VStack, Spinner, Link, } from "@chakra-ui/react";
 import * as tmPose from "@teachablemachine/pose";
 
 export default function Home() {
@@ -88,7 +88,9 @@ export default function Home() {
       <Box>
       <VStack spacing={2}>
           <Text w={{ base: 80, md: 96 }} pb={2} fontSize="3xl" textAlign="center" color="facebook.500">
-            <b></b>
+            Made for you by {" "} 
+            <Link href="https://arib.lol"><b>Arib</b></Link> and {" "}
+            <Link href="https://aleem.lol"><b>Aleem</b></Link>
           </Text>
           </VStack>
         <Box  rounded="lg" display={cameraGood ? "block" : "none"}>
